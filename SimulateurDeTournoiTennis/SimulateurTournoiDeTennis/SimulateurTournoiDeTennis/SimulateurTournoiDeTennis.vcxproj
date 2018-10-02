@@ -115,18 +115,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Ecole\Session3\C++\TP\travail1\aleatoire.cpp" />
+    <ClCompile Include="aleatoire.cpp" />
     <ClCompile Include="CBalle.cpp" />
     <ClCompile Include="CJoueur.cpp" />
     <ClCompile Include="CPartie.cpp" />
     <ClCompile Include="principal.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Ecole\Session3\C++\TP\travail1\aleatoire.h" />
-    <ClInclude Include="..\..\..\Ecole\Session3\C++\TP\travail1\joueurs_tennis.h" />
+    <ClInclude Include="aleatoire.h" />
     <ClInclude Include="CBalle.h" />
     <ClInclude Include="CJoueur.h" />
     <ClInclude Include="CPartie.h" />
+    <ClInclude Include="joueurs_tennis.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

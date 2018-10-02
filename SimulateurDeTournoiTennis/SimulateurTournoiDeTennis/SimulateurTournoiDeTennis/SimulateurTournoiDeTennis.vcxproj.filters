@@ -18,9 +18,6 @@
     <ClCompile Include="principal.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Ecole\Session3\C++\TP\travail1\aleatoire.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="CBalle.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
@@ -30,14 +27,11 @@
     <ClCompile Include="CPartie.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="aleatoire.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Ecole\Session3\C++\TP\travail1\aleatoire.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Ecole\Session3\C++\TP\travail1\joueurs_tennis.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
     <ClInclude Include="CBalle.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
@@ -45,6 +39,12 @@
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="CPartie.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="aleatoire.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="joueurs_tennis.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
