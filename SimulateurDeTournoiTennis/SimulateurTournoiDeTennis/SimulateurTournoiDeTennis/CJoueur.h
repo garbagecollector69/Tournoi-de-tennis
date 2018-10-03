@@ -12,7 +12,6 @@ enum Esexe
 {
 	Homme,
 	Femme
-
 };
 
 class CJoueur
