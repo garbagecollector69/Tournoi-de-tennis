@@ -35,7 +35,6 @@ Esexe CJoueur::GetSexe() const
 void CJoueur::Servir(CBalle & laBalle, bool bPremier)
 {
 	short chance;
-
 	if (!bPremier)
 	{
 		if(m_iForce>1)
@@ -44,7 +43,7 @@ void CJoueur::Servir(CBalle & laBalle, bool bPremier)
 			nbPointsForceSoustrait = GenererNbAleatoire(1, 2);
 			if (m_iForce - nbPointsForceSoustrait > 1)
 			{
-				m_iForce - nbPointsForceSoustrait;
+				m_iForce -= nbPointsForceSoustrait;
 			}
 			else
 			{
